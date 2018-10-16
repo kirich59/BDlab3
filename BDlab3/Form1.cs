@@ -18,7 +18,7 @@ namespace BDlab3
         {
             // Connection String.
             String connString = "Server=" + host + ";Database=" + database
-                + ";port=" + port + ";User Id=" + username + ";password=" + password;
+                + ";port=" + port + ";User Id=" + username + ";password=" + password + ";SslMode=none";
 
             MySqlConnection conn = new MySqlConnection(connString);
 
